@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Iceland'); /*Iceland is nice and smooth, also google fonts is good for everything */
+body {
+	/*4k quality background*/
+	background-image: url("../Images/BG/IndexBG.png"); 
+	background-color: #32383B;
+	/*all moniters should now display the background at "fill to screen" level*/
+	background-size: 100%;
+	/* mmm custom cursor*/
+	cursor: url("../Images/Cursor/Starfleetcursor.png"), auto; 
+}
+h1.thebeginning {
+	font-family: Iceland, serif;
+	/*memory alpha yellow!*/
+	color: #FFD942;
+	text-align: center;
+	text-shadow: 2px 2px #9b8428;
+}
+p.introductory {
+	font-family: Iceland, sans-serif;
+	color: #FFD942;
+	font-size: 20px;
+	text-align: center;
+	text-shadow: 2px 2px #9b8428;
+}
+p.introductory:hover {
+	background-color: #83aff7;
+}
+a {
+	font-family: Iceland, serif;
+	color: #FFD942;
+	text-shadow: 2px 2px #9b8428;
+}
+/*Dropdown menu css for db entries */
+ul.dbmenu {
+	background-color: transparent;
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	height:35px;
+}
+ul.dbmenu li {
+	float:left; 
+}
+ul.dbmenu li a {
+	font-family: Iceland, serif;
+	color:#FFD942;
+	padding:9px 20px;
+	display:block;
+	text-decoration:none;
+}
+ul.dbmenu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+ul.dbmenu li:hover {
+	position:relative;
+	background:#83aff7; 
+}
+ul.dbmenu li:hover ul {
+	left:0px;
+	top:30px;
+	background:#83aff7;
+	padding:0px;
+}
+
+ul.dbmenu li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:250px;
+	text-indent:5px;
+}
+ul.dbmenu li:hover ul li a:hover {
+	background:#2f79ef; 
+}
+/*exeunt dropdown menu css*/
+h1.tableocontent {
+	font-family: Garamond, serif;
+	color: #FFD942;
+	text-shadow: 2px 2px #9b8428;
+}
+ul.tabledecontent li{
+	font-family: Garamond, serif;
+	color: #FFD942;
+	text-shadow: 2px 2px #9b8428;
+	list-style-type: none;
+}
+div.boxesgrey {
+	float: left;
+	width: 325px;
+	height: 200px;
+	margin: 5px;
+	border: 1px solid rgba(0, 0, 0, .2);
+	padding-left: 25px;
+	background: #c6c6c6;
+}
+h1.aboutyorktown {
+	font-family: Iceland, serif;
+	color: #FFD942;
+	text-align: center;
+	text-shadow: 2px 2px #9b8428;
+	margin-top: 500px;
+	margin-bottom: 50px;
+}
+p.aboutyorktown {
+	font-family: Iceland, sans-serif;
+	color: #FFD942;
+	font-size: 20px;
+	text-shadow: 2px 2px #9b8428;
+	margin-left: 20px;
+}
+p.aboutyorktown:hover {
+	background-color: #83aff7;
+}
