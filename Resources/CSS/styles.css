@@ -124,3 +124,10 @@ a.aboutyorktown {
 p.aboutyorktown:hover {
 	background-color: #83aff7;
 }
+h2,aboutyorktownreports {
+	font-family: Iceland, serif;
+	color: #FFD942;
+	text-align: center;
+	text-shadow: 2px 2px #9b8428;
+	margin-bottom: 40px;
+}
