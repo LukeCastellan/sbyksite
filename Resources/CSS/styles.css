@@ -5,8 +5,8 @@ body {
 	background-color: #32383B;
 	/*all moniters should now display the background at "fill to screen" level*/
 	background-size: 100%;
-	/* mmm custom cursor*/
-	cursor: url("../Images/Cursor/Starfleetcursor.png"), auto; 
+	/*custom cursor*/
+	cursor: url("../Images/Starfleetcursor.png"), auto; 
 }
 h1.thebeginning {
 	font-family: Iceland, serif;
