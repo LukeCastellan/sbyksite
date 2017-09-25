@@ -22,6 +22,7 @@ p.introductory {
 	text-align: center;
 	text-shadow: 2px 2px #9b8428;
 }
+/*Self highlighting text*/
 p.introductory:hover {
 	background-color: #83aff7;
 }
@@ -31,6 +32,7 @@ a {
 	text-shadow: 2px 2px #9b8428;
 }
 /*Dropdown menu css for db entries */
+/*oh yes the menu is actually just parallel lists*/
 ul.dbmenu {
 	background-color: transparent;
 	padding:0;
@@ -86,6 +88,7 @@ ul.tabledecontent li{
 	text-shadow: 2px 2px #9b8428;
 	list-style-type: none;
 }
+/*table o' content!*/
 div.boxesgrey {
 	float: left;
 	width: 325px;
@@ -95,6 +98,7 @@ div.boxesgrey {
 	padding-left: 25px;
 	background: #c6c6c6;
 }
+/*gotta have quality oc, so here is the css for the info section*/
 h1.aboutyorktown {
 	font-family: Iceland, serif;
 	color: #FFD942;
@@ -109,6 +113,13 @@ p.aboutyorktown {
 	font-size: 20px;
 	text-shadow: 2px 2px #9b8428;
 	margin-left: 20px;
+}
+a.aboutyorktown {
+	font-family: Iceland, sans-serif;
+	color: #FFD942;
+	font-size: 20px;
+	text-shadow: 2px 2px #9b8428;
+	margin-left: 2em;
 }
 p.aboutyorktown:hover {
 	background-color: #83aff7;
