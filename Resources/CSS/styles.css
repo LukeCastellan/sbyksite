@@ -99,7 +99,7 @@ div.boxesgrey {
 	background: #c6c6c6;
 }
 /*gotta have quality oc, so here is the css for the info section*/
-h1.aboutyorktown {
+h1.aboutyorktown, h2.aboutyorktown {
 	font-family: Iceland, serif;
 	color: #FFD942;
 	text-align: center;
