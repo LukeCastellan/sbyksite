@@ -131,3 +131,9 @@ h2.aboutyorktownreports {
 	text-shadow: 2px 2px #9b8428;
 	margin-bottom: 40px;
 }
+a.bibliography {
+	font-family: Iceland, serif;
+	color: #FFD942;
+	margin-left: 25px;
+	margin-right: 25px;
+}
